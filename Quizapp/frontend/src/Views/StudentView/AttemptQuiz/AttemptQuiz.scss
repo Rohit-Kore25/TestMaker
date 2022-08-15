@@ -1,0 +1,42 @@
+.attemptQuiz{
+
+    .attemptQuizBody{
+        background-color: white;
+        padding: 18px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+
+        .quizQuestion{
+            display: flex;
+            flex-direction: column;
+            
+            .quizInputOption{
+                display: flex;
+                flex-direction: row;
+                gap: 5px;
+
+                label{
+                    margin-top: 3px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .submitQuiz{
+        background-color: rgb(43, 189, 17);
+        margin-top: 14px;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 20px;
+        padding: 6px;
+        cursor: pointer;
+        border-radius: 7px;
+
+        &:hover{
+            background-color: green;
+        }
+    }
+}

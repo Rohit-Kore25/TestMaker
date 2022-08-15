@@ -1,0 +1,30 @@
+.analyseQuizes{
+
+    .givenQuizList{
+        background-color: white;
+        margin-top: 30px;
+        max-width: fit-content;
+        min-height: 50px;
+        min-width: 150px;
+        padding: 10px;
+        border-radius: 7px;
+
+        .givenQuiz{
+            background-color: blueviolet;
+            color: white;
+            cursor: pointer;
+            padding: 7px;
+            margin: 3px;
+            border-radius: 8px;
+
+            h3{
+                margin: 0;
+            }
+
+            &:hover{
+                background-color: rgb(201, 33, 201);
+            }
+
+        }
+    }
+}

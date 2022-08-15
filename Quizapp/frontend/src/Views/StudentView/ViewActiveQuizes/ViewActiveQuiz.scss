@@ -1,0 +1,30 @@
+.viewActiveQuiz {
+
+    .activeQuizBody {
+        background-color: white;
+        min-width: 90px;
+        min-height: 30px;
+        color: black;
+        padding: 12px;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        border-radius: 7px;
+
+        .quiz {
+            h3 {
+                background-color: rgb(231, 12, 231);
+                color: white;
+                padding: 8px;
+                margin: 7px;
+                cursor: pointer;
+                border-radius: 7px;
+
+                &:hover{
+                    background-color: rgb(241, 76, 241);
+                }
+            }
+        }
+    }
+}

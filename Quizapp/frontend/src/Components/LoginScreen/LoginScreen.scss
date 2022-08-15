@@ -1,0 +1,63 @@
+.loginScreen{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+
+    .loginWindow{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 30%;
+        height: 90%;
+        border-radius: 8px;
+        padding: 20px;
+        color: white;
+
+        .loginInput{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+
+            label{
+                font-size: 24px;
+                font-family: cursive;
+            }
+
+            input{
+                outline: none;
+                border-radius: 5px;
+                height: 30px;
+                margin-bottom: 10px;
+                border: none;
+            }
+
+            select{
+                font-size: 16px;
+                height: 34px;
+                outline: none;
+                border-radius: 6px;
+            }
+        }
+
+        button{
+            margin-top: 17px;
+            font-size: 17px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: orange;
+            padding: 12px;
+            color: white;
+            font-weight: bold;
+
+            &:hover{
+                background-color: yellowgreen;
+            }
+        }
+    }
+}

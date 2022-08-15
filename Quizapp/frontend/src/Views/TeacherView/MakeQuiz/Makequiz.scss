@@ -1,0 +1,162 @@
+.makeQuiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 217, 0);
+    font-family: sans-serif;
+
+    .quizTitle{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+
+        input{
+            outline: none;
+            border-radius: 7px;
+            font-size: 18px;
+            padding: 6px;
+            border: none;
+        }
+    }
+
+    .quizQuestion{
+
+        label{
+            text-align: left;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+
+        textarea{
+            outline: none;
+            border-radius: 6px;
+            font-size: 19px;
+            padding: 10px;
+        }
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .quizOptions{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        .quizOption{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            label{
+                font-weight: bolder;
+            }
+            
+            input{
+                font-size: 16px;
+                outline: none;
+                border-radius: 7px;
+                border: none;
+                padding: 12px;
+            }
+        }
+
+        .updateQuestion{
+            color:white;
+            text-align: center;
+            background-color: yellowgreen;
+            margin-right: 20%;
+            margin-left: 20%;
+            border-radius: 7px;
+            padding: 12px;
+            cursor: pointer;
+            font-size: 18px;
+
+            &:hover{
+                background-color: rgb(234, 145, 51);
+            }
+        }
+
+        .addQuestion{
+            padding: 12px;
+            margin-right: 20%;
+            margin-left: 20%;
+            margin-bottom: 10px;
+            border-radius: 7px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            background-color: yellowgreen;
+            font-size: 18px;
+            color: white;
+
+            &:hover{
+                background-color: rgb(234, 145, 51);
+            }
+        }
+
+        .submit{
+            padding: 12px;
+            margin-right: 20%;
+            margin-left: 20%;
+            margin-bottom: 40px;
+            border-radius: 7px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            background-color: green;
+            font-size: 18px;
+            color: white;
+
+            &:hover{
+                background-color: rgb(234, 145, 51);
+            }
+        }
+
+    }
+
+    .quizPreview{
+        background-color: white;
+        width: 80%;
+        padding: 20px;
+        color: black;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+
+
+        .delbtn{
+            font-size: 18px;
+            background-color: red;
+            color:white;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+
+            &:hover{
+                background-color: rgb(225, 48, 48);
+            }
+        }
+
+        .updatebtn{
+            font-size: 18px;
+            background-color: gold;
+            color:white;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            margin-left: 10px;
+
+            &:hover{
+                background-color: goldenrod;
+            }
+        }
+        
+    }
+
+}
